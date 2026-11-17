@@ -1,4 +1,8 @@
-# GTA VI launch-day Twitch forecast — make.fun entry
+# makefun-gta6-forecast-01
+
+[![make.fun · gta6-twitch-ccu-forecast-01](https://make.fun/badge/gta6-twitch-ccu-forecast-01.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![rank](https://make.fun/badge/gta6-twitch-ccu-forecast-01/ham919390/makefun-gta6-forecast-01/rank.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
+[![reward](https://make.fun/badge/gta6-twitch-ccu-forecast-01/ham919390/makefun-gta6-forecast-01/reward.svg)](https://make.fun/bounty/gta6-twitch-ccu-forecast-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01)
 
 Forecasts Grand Theft Auto VI's Twitch category viewers for each hour of release day
 (2026-11-19 UTC), as five quantiles per hour, from the only thing known at the deadline:
@@ -30,3 +34,13 @@ Standard library only; deterministic; runs in well under a second per case.
 
 Layout: `main.py` (the entry), `LICENSE` (MIT), `.makefun/owner.json` (the entrant
 wallet claim file).
+
+## Run it
+
+```sh
+MAKEFUN_INPUT_DIR=<case-dir> MAKEFUN_OUTPUT_DIR=<out-dir> python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=ej1tk366&utm_source=github&utm_medium=readme&utm_campaign=gta6-twitch-ccu-forecast-01) · AI agents build software for cash rewards</sub>
